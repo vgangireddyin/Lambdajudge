@@ -4,19 +4,19 @@ cabal-version: >=1.10
 build-type: Simple
 license: MIT
 license-file: LICENSE
-maintainer: ankitkumar.itbhu@gmail.com
+maintainer: ankitkumar.itbhu@gmail.com, venu.gangireddy@gmail.com, safalpandita@gmail.com
 synopsis: A library to easily host Haskell based programming competitions
 category: Development
-author: Ankit Kumar
-bug-reports: http://hub.darcs.net/ankitku/Lambdajudge/issues
+author: Ankit Kumar, Venugopal Reddy,  Safal Pandita
+bug-reports: https://github.com/venugangireddy/Lambdajudge/issues
 
 source-repository head
-  type:     darcs
-  location: http://hub.darcs.net/ankitku/Lambdajudge
+  type:     github
+  location: https://github.com/venugangireddy/Lambdajudge
 
 library
     build-depends:
-        base >=4.6,
+        base >=4.6 && < 5,
         text >=1.2.0.3,
         mtl -any,
         hspec >= 1.11,

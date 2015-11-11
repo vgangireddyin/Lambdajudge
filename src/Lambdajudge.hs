@@ -1,7 +1,7 @@
 {-|
 Module      : Lambdajudge
 Description : Easily host haskell based coding competitions using Lambdajudge library
-Copyright   : (c) Ankit Kumar, 2015
+Copyright   : (c) Ankit Kumar, Venugopal 2015
 License     : MIT
 Maintainer  : ankitkumar.itbhu@gmail.com
 Stability   : experimental
@@ -78,7 +78,7 @@ catchAny = Control.Exception.catch
 -- | Check if mueval is installed on this system
 muevalAvlbl :: IO Bool
 muevalAvlbl = do
-       res <- liftIO $ catchAny (readProcessWithExitCode "mueval1" ["-e","1+1"] "") $ \e -> do
+       res <- liftIO $ catchAny (readProcessWithExitCode "mueval" ["-e","1+1"] "") $ \e -> do
               putStrLn "Got an exception."
               return (ExitFailure 1,"","")
        case res of
@@ -101,4 +101,4 @@ createContest = do
 
 test = do
         prob1 <- Lambdajudge.createContest
-        runLJMonad $ gradeSubmission prob1 "test/contest1/Q1/SolutionIllegalImport/Solution.hs"
+        runLJMonad $ gradeSubmission prob1 "test/contest1/Q1/Solution/Solution.hs"
