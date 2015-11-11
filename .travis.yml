@@ -4,3 +4,5 @@ before_install:
   - cabal install mueval
 script:
   - cabal configure --enable-tests && cabal build && ./dist/build/spec/spec
+notifications:
+  email: true
