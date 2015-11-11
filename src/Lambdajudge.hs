@@ -1,7 +1,7 @@
 {-|
 Module      : Lambdajudge
 Description : Easily host haskell based coding competitions using Lambdajudge library
-Copyright   : (c) Ankit Kumar, Venugopal 2015
+Copyright   : (c) Ankit Kumar, Venugopal, Safal 2015
 License     : MIT
 Maintainer  : ankitkumar.itbhu@gmail.com
 Stability   : experimental
