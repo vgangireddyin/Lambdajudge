@@ -1,4 +1,4 @@
-idist
+dist
 cabal-dev
 *.o
 *.hi
