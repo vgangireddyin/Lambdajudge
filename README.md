@@ -1,4 +1,4 @@
-# Lambdajudge [![Build Status](https://travis-ci.org/venugangireddy/Lambdajudge.svg?branch=master)](https://travis-ci.org/venugangireddy/Lambdajudge)
+# Lambdajudge [![Build Status](https://travis-ci.org/venugangireddy/Lambdajudge.svg?branch=master)](https://travis-ci.org/venugangireddy/Lambdajudge)  [![Version on Hackage](https://img.shields.io/hackage/v/Lambdajudge.svg)](http://hackage.haskell.org/package/Lambdajudge) [![MIT License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://tldrlegal.com/license/mit-license) 
 
 Lambdajudge is a library to easily host programming contests in haskell. This work is done as a project in [Functional Programming course](http://cse.iitk.ac.in/users/ppk/teaching/Functional-Programming/index.html).
 
