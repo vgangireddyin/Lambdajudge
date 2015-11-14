@@ -2,6 +2,10 @@
 
 Lambdajudge is a library to easily host programming contests in haskell. This work is done as a project in [Functional Programming course](http://cse.iitk.ac.in/users/ppk/teaching/Functional-Programming/index.html).
 
+
+[link to darcs repo, used originally for project](http://hub.darcs.net/ankitku/Lambdajudge)
+
+
 #### Team members
 - [Ankit Kumar](https://github.com/ankitku) (15111010)
 - [Venugopal Reddy](https://github.com/venugangireddy) (14111043)
