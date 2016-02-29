@@ -64,3 +64,5 @@ evaluate = do
     $ cabal build
     $ cabal repl
 ```
+
+[link to darcs repo, used originally for project](http://hub.darcs.net/ankitku/Lambdajudge)
