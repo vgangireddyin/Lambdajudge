@@ -2,8 +2,6 @@
 
 Lambdajudge is a library to easily host programming contests in haskell. This work is done as a project in [Functional Programming course](http://cse.iitk.ac.in/users/ppk/teaching/Functional-Programming/index.html).
 
-This repo will move to [hacktype](http://github.com/hacktype)
-
 #### Team members
 - [Ankit Kumar](https://github.com/ankitku) (15111010)
 - [Venugopal Reddy](https://github.com/venugangireddy) (14111043)
@@ -65,4 +63,4 @@ evaluate = do
     $ cabal repl
 ```
 
-[link to darcs repo, used originally for project](http://hub.darcs.net/ankitku/Lambdajudge)
+[link to darcs repo](http://hub.darcs.net/ankitku/Lambdajudge)
