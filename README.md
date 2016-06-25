@@ -59,3 +59,9 @@ evaluate = do
 ```
 
 [link to darcs repo](http://hub.darcs.net/ankitku/Lambdajudge)
+
+
+#### Team members
+- [Ankit Kumar](https://github.com/ankitku) (15111010)
+- [Venugopal Reddy](https://github.com/venugangireddy) (14111043)
+- [Safal Pandita](https://github.com/imhobo) (15111040)
